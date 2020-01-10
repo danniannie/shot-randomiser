@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Shot Randomiser</h1>
+    <p>
+      A small, but useful, web app to pick what drink you'll be knocking back
+      next.
+    </p>
+    <h2>Add what spirits you have available</h2>
+    <form id="spirit-form">
+      <input id="spirit-input" type="text" aria-label="Add to-do item" />
+      <button id="add">Add</button>
+    </form>
+    <section>
+      <h3>What you've got to play with:</h3>
+      <ul id="list">
+        <li>JD</li>
+        <li>Sambuca</li>
+        <li>Absinthe</li>
+      </ul>
+    </section>
+    <section>
+      <button id="random">What's up next?</button>
+      <h4>You are drinking...</h4>
+      <p id="drink-selector"></p>
+    </section>
+  </body>
+</html>
