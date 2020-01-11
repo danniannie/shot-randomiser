@@ -4,7 +4,7 @@ input {
 }
 body {
   background: black;
-  text-align: left;
+  text-align: center;
   font-family: "Poppins", sans-serif;
 }
 
@@ -28,7 +28,7 @@ h5 {
 }
 
 p {
-  margin: auto;
+  margin: 0px;
   font-size: 0.8rem;
 }
 
