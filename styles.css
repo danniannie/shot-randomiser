@@ -1,0 +1,46 @@
+.central {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  background: paleturquoise;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+}
+
+.selected {
+  font-size: 40px;
+  font-family: "Special Elite", cursive;
+}
+
+h1 {
+  font-family: "Special Elite", cursive;
+}
+
+h3 {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+p {
+  margin: auto;
+}
+
+li {
+  margin: auto;
+}
+
+#random {
+  background: black;
+  color: white;
+  padding: 10px 90px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#drinks {
+  border: 1px black solid;
+}

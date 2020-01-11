@@ -27,12 +27,7 @@ const randomShot = event => {
     drinksArray[Math.floor(Math.random() * Math.floor(drinksArray.length))];
 
   const currentP = document.getElementById("drink-selector");
-  // const parentDiv = currentP.parentNode;
-  // const item = document.createElement("p");
-  currentP.innerText = chosenDrink;
-  // parentDiv.replaceChild(item, currentP);
-
-  console.log(drinksArray);
+  currentP.innerText = chosenDrink || "Add a drink to be picked!";
 };
 
 randomButton.addEventListener("click", randomShot);
