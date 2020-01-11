@@ -1,18 +1,11 @@
-.central {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/* html elements */
+input {
+  padding: 10px;
 }
-
 body {
-  background: paleturquoise;
+  background: black;
   text-align: left;
   font-family: "Poppins", sans-serif;
-}
-
-.selected {
-  font-size: 40px;
-  font-family: "Special Elite", cursive;
 }
 
 h1 {
@@ -24,23 +17,69 @@ h3 {
   margin-bottom: 0px;
 }
 
-p {
-  margin: auto;
+h4 {
+  margin: 10px;
 }
 
-li {
+h5 {
+  margin: 10px;
+  text-decoration: underline;
+}
+
+p {
   margin: auto;
+  font-size: 0.8rem;
+}
+
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+form {
+  margin: 20px;
+}
+
+/* Text */
+.selected {
+  font-size: 20px;
+  font-family: "Special Elite", cursive;
+}
+
+/* buttons */
+button {
+  background: black;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+#add {
+  padding: 10px;
+  font-size: 0.8rem;
 }
 
 #random {
-  background: black;
-  color: white;
-  padding: 10px 90px;
+  padding: 20px 90px;
+  margin: 20px;
   font-size: 1rem;
-  font-weight: bold;
-  cursor: pointer;
+  border-radius: 40px;
+}
+/* Containers */
+.central {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  border: black 1px solid;
+  margin: 30px 130px;
+  padding: 20px;
+  background: palegreen;
 }
 
 #drinks {
   border: 1px black solid;
+  padding: 0px 90px 20px;
 }
