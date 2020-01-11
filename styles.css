@@ -10,10 +10,11 @@ body {
 
 h1 {
   font-family: "Special Elite", cursive;
+  margin: 0px;
 }
 
 h3 {
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 0px;
 }
 
@@ -31,12 +32,6 @@ p {
   font-size: 0.8rem;
 }
 
-ul {
-  padding: 0;
-}
-li {
-  list-style: none;
-}
 form {
   margin: 20px;
 }
@@ -45,6 +40,19 @@ form {
 .selected {
   font-size: 20px;
   font-family: "Special Elite", cursive;
+  color: white;
+}
+
+.purple {
+  font-size: 20px;
+  font-family: "Special Elite", cursive;
+  color: #b18ad4;
+}
+
+.drink {
+  padding: 10px;
+  border: black 1px solid;
+  margin: 3px 1px;
 }
 
 /* buttons */
@@ -61,10 +69,11 @@ button {
 
 #random {
   padding: 20px 90px;
-  margin: 20px;
+  margin: 20px 20px 0px;
   font-size: 1rem;
   border-radius: 40px;
 }
+
 /* Containers */
 .central {
   display: flex;
@@ -72,14 +81,32 @@ button {
   align-items: center;
 }
 
+#list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .container {
-  border: black 1px solid;
+  border: white 6px solid;
+  border-radius: 10px;
   margin: 30px 130px;
   padding: 20px;
-  background: palegreen;
+  background: #b18ad4;
 }
 
 #drinks {
   border: 1px black solid;
   padding: 0px 90px 20px;
+}
+
+/* media queries */
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 20px 10px;
+  }
+  #random {
+    padding: 20px 20px;
+  }
 }

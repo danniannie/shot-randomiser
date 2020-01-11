@@ -26,22 +26,17 @@
       <h5>Instructions</h5>
       <p>1. Add what spirits you have available</p>
       <p>2. Press the button and see what you will be drinking next!</p>
-
-      <!-- <h2>Add what spirits you have available</h2> -->
       <form id="spirit-form">
         <input id="spirit-input" type="text" aria-label="Add drink" />
         <button id="add">Add</button>
       </form>
-      <section class="central">
-        <h3>The bar:</h3>
-        <p>Add your liquor selection to get started</p>
-        <ul id="list"></ul>
+      <section id="the-bar" class="central the-bar">
+        <div id="list"></div>
       </section>
       <button id="random">What's up next?</button>
-      <section id="drinks" class="central">
-        <h4>You are drinking...</h4>
-        <p id="drink-selector" class="selected"></p>
-      </section>
     </div>
+    <section id="drinks" class="central">
+      <p id="drink-selector" class="selected"></p>
+    </section>
   </body>
 </html>
